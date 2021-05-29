@@ -38,14 +38,47 @@ li a:hover {
 </head>
          <BODY>
          <H1> Thailand</H1>
-                      <ul>
-  <li><a href="religie.html">Religie</a></li>
+                          <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #00ffff;
+}
+</style>
+</head>
+<body>
+
+<ul>
+     <ul>
   <li><a href="bezienswaardigheden.html">Bezienswaardigheden</a></li>
   <li><a href="tg.html">Traditionele gerechten</a></li>
   <li><a href="geschiedenis.html">Geschiedenis</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-
-</ul>   
+           <li><a href="religie.html">Religie</a></li>
+                            <li><a href="contact.html">Contact</a></li>         
+<li style="float:right"><a class="active" href="index.html">Home</a></li>
+</ul>
            <P>
                 Thailand staat bekend als vakantiebestemming vanwege de mooie natuur en de stranden. Het landschap is heuvelachtig met meerdere berggebieden, tropische regenwouden en een brede kustlijn.
              </p> 
@@ -55,9 +88,7 @@ li a:hover {
 <audio controls>
   <source src="audio.mp3" type="audio/mpeg">
 </audio>
-
-    
-             </body>
+    </body>
     </html>
 
     
